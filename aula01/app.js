@@ -1,2 +1,2 @@
 console.log('Hello world!'); // String
-console.log(67) // Number
+console.log(67); // Number
