@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <p class="titulo"><strong>Tabela IMC</strong></p>
+        <div class="container-flex">
+            <div class="coluna">
+                <p class="titulo"> <strong>IMC</strong></p>
+                <p class="paragrafo">
+                Menos do que 18,5 <br>
+                Entre 18,5 e 24,9 <br>
+                Entre 25 e 29,9   <br>
+                Entre 30 e 34,9   <br>
+                Entre 35 e 39,9   <br>
+                Mais do que 40    <br>
+                </p>
+            </div>
+            <div class="coluna">
+                <p class="titulo"><strong>Resultados</strong></p>
+                <p class="paragrafo">
+                    Abaixo do peso <br>
+                    Peso normal <br>
+                    Sobrepeso <br>
+                    Obesidade grau 1 <br>
+                    Obesidade grau 2 <br>
+                    Obesidade grau 3 <br>
+                </p>
+            </div>
+        </div>
+        <p class="titulo"><strong> Calcule seu IMC</strong></p>
+        <form action="labels">
+            <label for="peso">Peso: </label> <br>
+            <input type="number" id="peso"> <br>
+            <label for="altura">Altura: </label> <br>
+            <input type="number" id="altura" step="0.01"> <br>
+        </form>
+        <button id="calcular">Calcular</button>
+        <p class="resultado" id="resultado"><strong></strong></p>
+        <p class="validador" id="validador"><strong></strong></p>
+    </section>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</script>
+</html>

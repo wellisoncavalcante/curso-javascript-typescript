@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: red;
+    --body-color: rgb(145, 139, 139);
+    --container-color: rgb(255, 255, 255);
+    --resultado-color: rgb(0, 199, 33);
+}
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+form label {
+    font-size: 30px;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+button {
+    background-color: blue;
+    color: #f0f0f0f0;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--container-color);
+}
+
+.container-abaixo {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.coluna {
+    flex: 1;
+    padding: 0px 20px;
+}
+
+.titulo {
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.paragrafo {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.resultado {
+    font-size: 25px;
+    background-color: var(--resultado-color);
+}
+
+.validador {
+    font-size: 25px;
+    background-color: var(--primary-color);
+}
