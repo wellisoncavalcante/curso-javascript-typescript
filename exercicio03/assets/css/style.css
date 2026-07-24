@@ -1,0 +1,23 @@
+:root {
+    --primary-color:rgb(37, 150, 190);
+    --second-color:rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: var(--second-color);
+    width: 640px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
